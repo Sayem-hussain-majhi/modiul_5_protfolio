@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+}
+
+.header-text-box {
+    font-size: medium;
+    text-align: right;
+    width: 35%;
+    margin: 150px 180px;
+}
+
+.header-text-box h1 {
+    font-size: 30px;
+}
+
+.header-text-box p {
+    font-size: 10px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #fff;
+    border: 0;
+    padding: 5px 15px;
+}
+
+/* my info section */
+.my-info {
+    height: 100vh;
+
+}
+
+.my-info-container {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.person {
+    height: 380px;
+    border-radius: 50%;
+}
+
+.person-info {
+    width: 300px;
+    padding-top: 50px;
+}
+
+.person-info h1 {
+    font-size: 30px;
+}
+
+.person-info p {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.person-info ul li {
+    font-size: 10px;
+    padding: 5px 0 5px 5px;
+    list-style: none;
+}
+
+.fa-solid {
+    color: #16D887;
+}
+
+/* my plan styles */
+
+.my-plan {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 70%;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+
+.plan-box {
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.plan-box img {
+    width: 40px;
+}
+
+.plan-box h4 {
+    font-size: 12px;
+}
+
+.plan-box p {
+    font-size: 10px;
+    color: #737272;
+}
+
+/* wacth box */
+
+.wacth-container {
+    height: 70vh;
+}
+
+ .wacth-box {
+    width: 700px;
+    height: 150px;
+    margin: 100px;
+    background-color: #151414;
+ 
+}
+
+.wacth-box img {
+    width: 700px;
+    height: 150px;
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.wacth-box-text{
+    position: absolute;
+    top: 10px;
+   
+}
+
+footer{
+    padding: 50px;
+    height: 60vh;
+    background:#151414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left{
+    width: 300px;
+}
+
+.footer-heading{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-des{
+    font-size: 10px;
+}
+
+.social-icon{
+    width: 22px;
+}
+
+input{
+    padding: 5px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn-secondary{
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 251, 251);
+    color: #F15B22;
+}
